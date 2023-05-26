@@ -1,0 +1,199 @@
+h1
+{
+  display: flex;
+  justify-content: flex-start;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size:medium;
+color: peru;
+}
+.container nav {
+  display: flex;
+  
+}
+.main-logo {
+  display:flex;
+  justify-content:center;
+}
+  .companyname 
+  { display: flex;
+    height: 50px;
+width: 156px;
+}
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+.menu-main {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 40px 0 5px;
+  padding: 25px 0 5px;
+  text-align: center;
+  background: white;
+
+}
+.menu-main li {display: inline-block;}
+.menu-main li:after {
+  content: "|";
+  color: #606060;
+  display: inline-block;
+  vertical-align:top;
+}
+.menu-main li:last-child:after {content: none;}
+.menu-main a {
+  text-decoration: none;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  letter-spacing: 2px;
+  position: relative;
+  padding-bottom: 20px;
+  margin: 0 34px 0 30px;
+  font-size: 17px;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: color .2s;
+}
+.menu-main a, .menu-main a:visited {color: #9d999d;}
+.menu-main a.current, .menu-main a:hover{color: #feb386;}
+.menu-main a:before,
+.menu-main a:after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  top: auto;
+  right: 50%;
+  bottom: -5px;
+  left: 50%;
+  background: #feb386;
+  transition: .8s;
+}
+.menu-main a:hover:before, .menu-main .current:before {left: 0;}
+.menu-main a:hover:after, .menu-main .current:after {right: 0;}   
+@media (max-width: 550px) {
+.menu-main {padding-top: 0;}
+.menu-main li {display: block;}
+.menu-main li:after {content: none;}
+.menu-main a {
+  padding: 25px 0 20px; 
+  margin: 0 30px;
+}
+}
+
+ .supplier {
+  display: flex;
+  justify-content: right;
+ }
+.signup-text-input {
+  display: flex;
+  height: 60px;
+background: #FFFFFF;
+box-shadow: 1px 20px 20px rgba(0, 0, 0, 0.5);
+border-radius: 1px;
+width: 250px;}
+
+  .main
+  {display: flex;
+
+  }
+
+.flexcontainer {
+  background-image:url("/assets2/Rectangle\ img\(1\).svg") ;
+  display: flex;
+  flex-direction: column;
+    justify-content:space-around;
+    align-items:self-start;
+  height: 500px;
+	width:auto ;  
+}
+
+.bottom-left {
+  
+  display: flex;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: black;
+	width: 240px;
+	margin: 10px;
+	text-align: center;
+	font-size: 20px;
+}
+.bottom-left2 {
+  display: flex;
+ 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     color: rgb(33, 6, 6);
+    font-size: large;
+    
+	color: black;
+	width: 240px;
+	margin: 10px;
+	text-align: center;
+	font-size: 20px;
+}
+
+
+ @import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+.menu-main2 {
+  list-style: none;
+  margin: 40px 0 5px;
+  padding: 25px 0 5px;
+  text-align: center;
+  background: white;
+}
+.menu-main2 li {display: inline-block;}
+.menu-main2 li:after {
+  content: "|";
+  color: #606060;
+  display: inline-block;
+  vertical-align:top;
+}
+.menu-main2 li:last-child:after {content: none;}
+.menu-main2 a {
+  text-decoration: none;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  letter-spacing: 2px;
+  position: relative;
+  padding-bottom: 20px;
+  margin: 0 34px 0 30px;
+  font-size: 17px;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: color .2s;
+}
+.menu-main2 a, .menu-main2 a:visited {color: #9d999d;}
+.menu-main2 a.current, .menu-main2 a:hover{color: #feb386;}
+.menu-main2 a:before,
+.menu-main2 a:after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  top: auto;
+  right: 50%;
+  bottom: -5px;
+  left: 50%;
+  background: #feb386;
+  transition: .8s;
+}
+.menu-main2 a:hover:before, .menu-main2 .current:before {left: 0;}
+.menu-main2 a:hover:after, .menu-main2 .current:after {right: 0;}   
+@media (max-width: 550px) {
+.menu-main2 {padding-top: 0;}
+.menu-main2 li {display: block;}
+.menu-main2 li:after {content: none;}
+.menu-main2 a {
+  padding: 25px 0 20px; 
+  margin: 0 30px;
+}
+}
+
+.gallery_flex {height: 200;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+
+}
+.gallery_item {
+  display: flex;
+  flex-grow: 1;
+
+  
+}
+.gallery_item:hover img  {
+  border: 2px solid brown;}
+  
